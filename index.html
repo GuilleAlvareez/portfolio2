@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Guillermo Álvarez Moreno</h1>
+
+        <section class="contacto">
+            <button class="botones-contacto" id="boton-linkedin">
+                <svg id="linkedin" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 11v5" /><path d="M8 8v.01" /><path d="M12 16v-5" /><path d="M16 16v-3a2 2 0 1 0 -4 0" /><path d="M3 7a4 4 0 0 1 4 -4h10a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-10a4 4 0 0 1 -4 -4z" /></svg>
+            </button>
+
+            <button class="botones-contacto" id="boton-github">
+                <svg id="github" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-github"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" /></svg>
+            </button>
+
+            <button class="botones-contacto" id="boton-email">
+                <svg id="email" xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" /><path d="M3 7l9 6l9 -6" /></svg>
+            </button>
+        </section>
+    </header>
+
+    <main>
+        <button id="switch">Cambiar a ingles</button>
+
+        <div id="espanol">
+            <section id="informacion">
+                <article id="sobre-mi">
+                    <h1>Sobre Mi</h1>
+                    
+                    <div id="contenido-sobre-mi">
+                        <img src="fotoMia.jpg" alt="Foto de Guillermo Álvarez Moreno">
+
+                        <p>Soy un desarrollador web apasionado por crear soluciones innovadoras y eficientes. Me encanta aprender nuevas tecnologías y enfrentar desafíos.</p>
+                    </div>
+                </article>
+
+                <article id="habilidades-tecnicas">
+                    <h1>Habilidades Técnicas</h1>
+                    
+                    <div id="habilidades">
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#60a5fa"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brackets-angle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 4l-5 8l5 8" /><path d="M16 4l5 8l-5 8" /></svg>
+                                <h1>Frontend</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Taildwind</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#60a5fa"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-server"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M3 12m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M7 8l0 .01" /><path d="M7 16l0 .01" /></svg>
+                                <h1>Backend</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Django</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#60a5fa"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-database"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
+                                <h1>Base de datos</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#60a5fa"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-git-merge"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M17 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" /><path d="M7 8l0 8" /><path d="M7 8a4 4 0 0 0 4 4h4" /></svg>
+                                <h1>Herramientas de desarrollo</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>Git</li>
+                                <li>Docker</li>
+                                <li>AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="proyectos-personales">
+                <h1>Proyectos personales</h1>
+
+                <div id="proyectos">
+                    <article class="card-proyecto">
+                        <img src="traductor.png" alt="Proyecto 1"/>
+
+                        <div class="informacion-proyecto">
+                            <h2>Traductor</h2>
+                            <p>Este traductor web, desarrollado con React y Tailwind CSS, permite convertir texto entre distintos idiomas de forma rápida y sencilla. Su diseño minimalista y responsivo ofrece una experiencia fluida en cualquier dispositivo</p>
+                            <div class="enlace-proyecto">
+                                <a href="https://tanslate-pied.vercel.app/" target="_blank">Ver proyecto</a>
+                                
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#2dd4bf"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-folder-symlink"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21v-4a3 3 0 0 1 3 -3h5" /><path d="M8 17l3 -3l-3 -3" /><path d="M3 11v-5a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8" /></svg>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card-proyecto">
+                        <img src="virtualHouse.png" alt="Proyecto 2"/>
+
+                        <div class="informacion-proyecto">
+                            <h2>Pagina Inmobiliaria</h2>
+                            <p>Landing Page de inmobiliaria, desarrollada con React y Tailwind CSS, presenta un diseño moderno y responsivo. Su estructura sencilla y eficiente garantiza una navegación fluida en cualquier dispositivo</p>
+                            <div class="enlace-proyecto">
+                                <a href="https://virtual-house.vercel.app/" target="_blank">Ver proyecto</a>
+                                
+                                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#2dd4bf"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-folder-symlink"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21v-4a3 3 0 0 1 3 -3h5" /><path d="M8 17l3 -3l-3 -3" /><path d="M3 11v-5a2 2 0 0 1 2 -2h4l3 3h7a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-8" /></svg>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            
+            <section id="experiencia-academica">
+                <h1>Experiencia Académica</h1>
+
+                <article class="card-experiencia-academica">
+                    <div class="titulo">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#60a5fa"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-school"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" /><path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" /></svg>
+
+                        <h1>Grado Superior de Desarrollo de Aplicaciones Web</h1>
+                    </div>
+
+                    <div class="sitio">
+                        <p>IES Hermanos Machado</p>
+                        <p>2023-2025</p>
+                    </div>
+                </article>
+                
+                <article class="card-experiencia-academica">
+                    <div class="titulo">
+                        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#60a5fa"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-school"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 9l-10 -4l-10 4l10 4l10 -4v6" /><path d="M6 10.6v5.4a6 3 0 0 0 12 0v-5.4" /></svg>
+
+                        <h1>Bachillerato de ciencias</h1>
+                    </div>
+
+                    <div class="sitio">
+                        <p>IES Galileo Galilei</p>
+                        <p>2017-2023</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+
+        <div id="ingles">
+            <section id="informacion">
+                <article id="sobre-mi">
+                    <h1>About Me</h1>
+                    
+                    <div id="contenido-sobre-mi">
+                        <img src="fotoMia.jpg" alt="Photo of Guillermo Álvarez Moreno">
+        
+                        <p>I am a web developer passionate about creating innovative and efficient solutions. I love learning new technologies and facing challenges.</p>
+                    </div>
+                </article>
+        
+                <article id="habilidades-tecnicas">
+                    <h1>Technical Skills</h1>
+                    
+                    <div id="habilidades">
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brackets-angle"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 4l-5 8l5 8" /><path d="M16 4l5 8l-5 8" /></svg>
+                                <h1>Frontend</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Tailwind</li>
+                            </ul>
+                        </div>
+        
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-server"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 4m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M3 12m0 3a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-12a3 3 0 0 1 -3 -3z" /><path d="M7 8l0 .01" /><path d="M7 16l0 .01" /></svg>
+                                <h1>Backend</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Django</li>
+                            </ul>
+                        </div>
+        
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-database"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 6m-8 0a8 3 0 1 0 16 0a8 3 0 1 0 -16 0" /><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>
+                                <h1>Database</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>SQL</li>
+                            </ul>
+                        </div>
+        
+                        <div class="card-habilidad">
+                            <div class="nombre-habilidad">
+                                <h1>Development Tools</h1>
+                            </div>
+                            
+                            <ul class="lista-habilidades">
+                                <li>Git</li>
+                                <li>Docker</li>
+                                <li>AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        
+            <section id="proyectos-personales">
+                <h1>Personal Projects</h1>
+        
+                <div id="proyectos">
+                    <article class="card-proyecto">
+                        <img src="traductor.png" alt="Project 1"/>
+        
+                        <div class="informacion-proyecto">
+                            <h2>Translator</h2>
+                            <p>This web translator, developed with React and Tailwind CSS, allows you to convert text between different languages quickly and easily. Its minimalist and responsive design offers a smooth experience on any device.</p>
+                            <div class="enlace-proyecto">
+                                <a href="https://tanslate-pied.vercel.app/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+        
+                    <article class="card-proyecto">
+                        <img src="virtualHouse.png" alt="Project 2"/>
+        
+                        <div class="informacion-proyecto">
+                            <h2>Real Estate Website</h2>
+                            <p>Real estate landing page, developed with React and Tailwind CSS, featuring a modern and responsive design. Its simple and efficient structure ensures smooth navigation on any device.</p>
+                            <div class="enlace-proyecto">
+                                <a href="https://virtual-house.vercel.app/" target="_blank">View Project</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            
+            <section id="experiencia-academica">
+                <h1>Academic Experience</h1>
+        
+                <article class="card-experiencia-academica">
+                    <div class="titulo">
+                        <h1>Higher Degree in Web Application Development</h1>
+                    </div>
+        
+                    <div class="sitio">
+                        <p>IES Hermanos Machado</p>
+                        <p>2023-2025</p>
+                    </div>
+                </article>
+                
+                <article class="card-experiencia-academica">
+                    <div class="titulo">
+                        <h1>Science Baccalaureate</h1>
+                    </div>
+        
+                    <div class="sitio">
+                        <p>IES Galileo Galilei</p>
+                        <p>2017-2023</p>
+                    </div>
+                </article>
+            </section>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
